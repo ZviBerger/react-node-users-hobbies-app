@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Hobbie" ALTER COLUMN "hobbies" SET NOT NULL,
+ALTER COLUMN "hobbies" SET DATA TYPE TEXT;

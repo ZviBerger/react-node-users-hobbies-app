@@ -1,0 +1,6 @@
+postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA 
+npx prisma migrate dev --name init
+prisma generate
+
+docker build -t zvix/node:latest .
+docker run -p 3000:3000 zvix/node
